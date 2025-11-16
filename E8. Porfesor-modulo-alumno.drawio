@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.7 Chrome/138.0.7204.251 Electron/37.7.1 Safari/537.36" version="28.2.7">
+  <diagram id="4H-dddGhmLwHJAF6dPRP" name="Página-1">
+    <mxGraphModel dx="1869" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="-KXEP_B1OjUAMlZT8BwM-1" target="-KXEP_B1OjUAMlZT8BwM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-1" value="PROFESOR" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="10" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-2" value="MODULO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-3" value="ALUMMNO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-4" value="CURSO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="970" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-5" value="IMPARTE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-6" value="MATRICULADO" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-7" value="PERTENECE A&amp;nbsp;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-9" value="&lt;ul&gt;&lt;li&gt;ID_PROFESOR (PK)&lt;/li&gt;&lt;li&gt;DNI&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;li&gt;TELEFONO&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="260" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-10" value="&lt;ul&gt;&lt;li&gt;ID_MODULO (PK)&lt;/li&gt;&lt;li&gt;ID_PROFESOR (FK)&lt;/li&gt;&lt;li&gt;CODIGO&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="295" y="265" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-11" value="&lt;ul&gt;&lt;li&gt;ID_ALUMNO (PK)&lt;/li&gt;&lt;li&gt;ID_CURSO (FK)&lt;/li&gt;&lt;li&gt;NUMERO_EXPEDIENTE&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;APELLIDO&lt;/li&gt;&lt;li&gt;FECHA_NACIMIENTO&lt;/li&gt;&lt;li&gt;DELEGADO (T/F)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="610" y="265" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-12" value="&lt;ul&gt;&lt;li&gt;ID_CURSO (PK)&lt;/li&gt;&lt;li&gt;ID_DELEGADO (FK)&lt;/li&gt;&lt;li&gt;NUMERO_ALUMNOS&lt;/li&gt;&lt;li&gt;NOMBRE_TUTOR&lt;/li&gt;&lt;li&gt;NOMBRE_DELEGADO&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="932.5" y="265" width="175" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-13" value="1:N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-14" value="N:M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-15" value="N:1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-16" value="&lt;ul&gt;&lt;li&gt;ID_MATRICULADO (PK)&lt;/li&gt;&lt;li&gt;ID_MODULO (FK)&lt;/li&gt;&lt;li&gt;ID_ALUMNO (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-17" value="Un alumno puede estar matriculado en varios móduclos y en un módulo puede haber varios alumndos matriculados" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="40" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-KXEP_B1OjUAMlZT8BwM-18" value="En un curso hay muchos alumnos, pero normalmente un alumno sólo suele pertenecer a un curso. Por ejemplo, en el primer curso de DAW somos varios alumnos y todos pertenecemos sólo al primer curso de DAW" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="390" width="200" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

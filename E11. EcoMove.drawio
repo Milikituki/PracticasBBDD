@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.7 Chrome/138.0.7204.251 Electron/37.7.1 Safari/537.36" version="28.2.7">
+  <diagram id="VPIctW4DpsS2LG0wA99r" name="Página-1">
+    <mxGraphModel dx="1869" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r2IMBNArnhVL_IYRh6hv-1" target="r2IMBNArnhVL_IYRh6hv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-1" value="VEHICULO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="r2IMBNArnhVL_IYRh6hv-2" target="r2IMBNArnhVL_IYRh6hv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="r2IMBNArnhVL_IYRh6hv-2" target="r2IMBNArnhVL_IYRh6hv-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="r2IMBNArnhVL_IYRh6hv-2" target="r2IMBNArnhVL_IYRh6hv-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-2" value="CLIENTE" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-4" value="ALQUILER" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="r2IMBNArnhVL_IYRh6hv-5" target="r2IMBNArnhVL_IYRh6hv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-5" value="ESTACION DE CARGA" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-6" value="EMPLEADO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-8" value="REVISION TECNICA" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-9" value="INCIDENCIA" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-11" value="REALIZA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-12" value="INCLUYE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="570" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-13" value="PERTENECE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="930" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-14" value="REALIZA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-15" value="TRABAJA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-16" value="GESTIONA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-25" value="&lt;ul&gt;&lt;li&gt;ID_CLIENTE (PK)&lt;/li&gt;&lt;li&gt;ID_SUSCRIPCION (FK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;APELLIDO&lt;/li&gt;&lt;li&gt;TELEFONO&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;li&gt;DNI&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="100" width="175" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-26" value="&lt;ul&gt;&lt;li&gt;ID_ALQUILER (PK)&lt;/li&gt;&lt;li&gt;ID_CLIENTE (FK)&lt;/li&gt;&lt;li&gt;TIPO (H/M)&lt;/li&gt;&lt;li&gt;RUTA_RECORRIDA&lt;/li&gt;&lt;li&gt;PUNTO_INICIO&lt;/li&gt;&lt;li&gt;PUNTO_FIN&lt;/li&gt;&lt;li&gt;IMPORTE_TOTAL&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="10" width="185" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-27" value="&lt;ul&gt;&lt;li&gt;ID_VEHICULO (PK)&lt;/li&gt;&lt;li&gt;ID_ALQUILER (FK)&lt;/li&gt;&lt;li&gt;ID_ESTACION (FK)&lt;/li&gt;&lt;li&gt;MODELO&lt;/li&gt;&lt;li&gt;MATRICULA&lt;/li&gt;&lt;li&gt;ESTADO_ACTUAL&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="720" y="30" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-29" value="&lt;ul&gt;&lt;li&gt;ID_ESTACION (PK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;li&gt;CAPACIDAD&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="40" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-30" value="&lt;ul&gt;&lt;li&gt;ID_REVISION (PK)&lt;/li&gt;&lt;li&gt;ID_ESTACION (FK)&lt;/li&gt;&lt;li&gt;CAMBIO_FILTRO&lt;/li&gt;&lt;li&gt;CAMBIO_ACEITE&lt;/li&gt;&lt;li&gt;KILOMETRAJE&lt;/li&gt;&lt;li&gt;OTROS&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="35" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-31" value="&lt;ul&gt;&lt;li&gt;ID_EMPLEADO (PK)&lt;/li&gt;&lt;li&gt;ID_ESTACION (FK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;NUMERO_EMPLEADO&lt;/li&gt;&lt;li&gt;TELEFONO&lt;/li&gt;&lt;li&gt;CATEGORIA&lt;/li&gt;&lt;li&gt;SECCION&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="385" width="170" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-32" value="&lt;ul&gt;&lt;li&gt;ID_INCIDENCIA (PK)&lt;/li&gt;&lt;li&gt;DESCRIPCION&lt;/li&gt;&lt;li&gt;SOLUCION&lt;/li&gt;&lt;li&gt;FECHA&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="630" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-35" value="1:N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-38" value="Un cliente puede realizar varios alquileres pero un alquiler sólo pueded estar realizado por un cliente (el titular del alquiler)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-40" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-39" value="1:N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-40" value="Un alquiler puede incluir varios vehículos (un coche, dos patinetes...) pero el vehículo sólo puede estar incluído en un alquiler y no en otro, por ejemplo el patinete X solo estará relacionado con un alquiler concreto del cliente X y hasta que no acabe su alquiler, no podrá alquilarlo otro cliente" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="230" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-41" value="N:1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-42" value="Un vehículo sólo pertenece&lt;div&gt;&amp;nbsp;a una estación de carga pero en una estación de carga puede haber varios&amp;nbsp;&lt;div&gt;vehículos&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-60" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-43" value="1:N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-44" value="En una estación de carga se llevan a cabo varias revisiones técnicas pero las revisiones sólo se realizan en una única estación" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="-50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-45" value="1:N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-46" value="En una estación de carga trabajan varios empleados, pero los empleados sólo trabajan en una estación de carga determinada" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="230" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-47" value="N:M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-48" value="Un empleado puede gestionar diferentes incidencias y las incidencias a su vez pueden ser gestionadas por diferentes empleados" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="500" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-49" value="&lt;ul&gt;&lt;li&gt;ID_GESTION (PK)&lt;/li&gt;&lt;li&gt;ID_EMPLEADO (FK)&lt;/li&gt;&lt;li&gt;ID_INCIDENCIA (FK)&lt;/li&gt;&lt;li&gt;ID_VEHICULO (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="920" y="507.5" width="180" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-50" value="Las incidencias son de los vehículos, así que entiendo que la futura tabla intermedia debería apuntar tanto al empleado, a la incidencia y al vehículo implicado" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="590" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-51" value="PUEDE TENER" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-52" value="SUSCRIPCION" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="43" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-54" value="N:1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-55" value="Un cliente solo puede tener una suscipción mensual (como por ejemplo un cliente de netflix solo tiene un tipo de suscripción y no varias) pero un tipo de suscripción puede tener varios clientes" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="260" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-56" value="PAGA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-57" value="TARJETA DE PAGO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-59" value="N:1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-60" value="&lt;ul&gt;&lt;li&gt;ID_SUSCRIPCION (PK)&lt;/li&gt;&lt;li&gt;FECHA_INICIO&lt;/li&gt;&lt;li&gt;IMPORTE&lt;/li&gt;&lt;li&gt;DESCUENTO&lt;/li&gt;&lt;li&gt;KILOMETRAJE_INCLUIDO&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry y="465" width="222" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r2IMBNArnhVL_IYRh6hv-61" value="&lt;ul&gt;&lt;li&gt;ID_TARJETA_PAGO (PK)&lt;/li&gt;&lt;li&gt;ID_CLIENTE (FK)&lt;/li&gt;&lt;li&gt;NUMERO&lt;/li&gt;&lt;li&gt;CADUCIDAD&lt;/li&gt;&lt;li&gt;NOMBRE_TITULAR&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-22" y="-200" width="222" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
