@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.7 Chrome/138.0.7204.251 Electron/37.7.1 Safari/537.36" version="28.2.7">
+  <diagram id="9WgVqBAAsjUSsFd7sh7E" name="Página-1">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ns_K9Ef1CPaSE-BB-y5p-3" target="ns_K9Ef1CPaSE-BB-y5p-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-3" value="CLIENTE" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-4" value="PROVEEDOR" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="690" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-5" value="COMPRA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-6" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;SUMINISTRADO POR&lt;/font&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-2" value="PRODUCTO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-8" value="&lt;ul&gt;&lt;li&gt;ID_CLIENTE (PK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;APELLIDOS&lt;/li&gt;&lt;li&gt;DNI&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;li&gt;FECHA_NACIMIENTO&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-9" value="&lt;ul&gt;&lt;li&gt;ID_PRODUCTO (PK)&lt;/li&gt;&lt;li&gt;ID_PROVEEDOR (FK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;CODIGO&lt;/li&gt;&lt;li&gt;PRECIO_UNITARIO&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-10" value="&lt;ul&gt;&lt;li&gt;ID_PROVEEDOR (PK)&lt;/li&gt;&lt;li&gt;NIF&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="650" y="210" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-11" value="N:M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-12" value="N:1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ns_K9Ef1CPaSE-BB-y5p-13" value="&lt;ul&gt;&lt;li&gt;ID_COMPRA (PK)&lt;/li&gt;&lt;li&gt;ID_CLIENTE (FK)&lt;/li&gt;&lt;li&gt;ID_PRODUCTO (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="170" y="30" width="180" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

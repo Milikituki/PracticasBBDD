@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.7 Chrome/138.0.7204.251 Electron/37.7.1 Safari/537.36" version="28.2.7">
+  <diagram id="DxV_mRpfNnnVxtTVSdes" name="Página-1">
+    <mxGraphModel dx="1869" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="7TZFpmbvw8Ne745fpbVH-1" target="7TZFpmbvw8Ne745fpbVH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-1" value="COCHE" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="7TZFpmbvw8Ne745fpbVH-2" target="7TZFpmbvw8Ne745fpbVH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-2" value="CLIENTE" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="10" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-3" value="REVISION" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-5" value="COMPRA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-7" value="PASA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-11" value="&lt;ul&gt;&lt;li&gt;ID_CLIENTE (PK)&lt;/li&gt;&lt;li&gt;NIF&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;li&gt;CIUDAD&lt;/li&gt;&lt;li&gt;TELEFONO&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="60" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-12" value="&lt;ul&gt;&lt;li&gt;ID_COCHE (PK)&lt;/li&gt;&lt;li&gt;MATRICULA&lt;/li&gt;&lt;li&gt;MARCA&lt;/li&gt;&lt;li&gt;MODELO&lt;/li&gt;&lt;li&gt;PRECIO&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="305" y="70" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-13" value="&lt;ul&gt;&lt;li&gt;ID_REVISION (PK)&lt;/li&gt;&lt;li&gt;ID_COCHE (FK)&lt;/li&gt;&lt;li&gt;CAMBIO_FILTRO&lt;/li&gt;&lt;li&gt;CAMBIO_ACEITE&lt;/li&gt;&lt;li&gt;CAMBIO_FRENOS&lt;/li&gt;&lt;li&gt;OTROS&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="625" y="60" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-16" value="1:N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-17" value="1:N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7TZFpmbvw8Ne745fpbVH-19" value="Un coche puede pasar varias revisiones, pero normalmente una revisión es de un coche. Para otro coche, sería una reivisión distinta." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="270" width="165" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

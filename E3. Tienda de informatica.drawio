@@ -1,68 +1,71 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.7 Chrome/138.0.7204.251 Electron/37.7.1 Safari/537.36" version="28.2.7">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
   <diagram id="WxPBSOdCoMxxi9HBIxA0" name="Página-1">
-    <mxGraphModel dx="1869" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1857" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="PgS7k8zxbwXqaSmtQuQZ-1" target="PgS7k8zxbwXqaSmtQuQZ-7">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="PgS7k8zxbwXqaSmtQuQZ-1" target="PgS7k8zxbwXqaSmtQuQZ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-1" value="CLIENTE" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-1" value="CLIENTE" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry y="240" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-2" value="PEDIDO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-2" value="PEDIDO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="350" y="240" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-3" value="PRODUCTO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-3" value="PRODUCTO" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="680" y="240" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-4" value="CATEGORIA" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-4" value="CATEGORIA" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1030" y="240" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-5" value="REALIZA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-5" value="REALIZA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="170" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-6" value="CONTIENE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-6" value="CONTIENE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="510" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PgS7k8zxbwXqaSmtQuQZ-7" target="PgS7k8zxbwXqaSmtQuQZ-4">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PgS7k8zxbwXqaSmtQuQZ-7" target="PgS7k8zxbwXqaSmtQuQZ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-7" value="PERTENECE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-7" value="PERTENECE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="850" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-10" value="1:N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-10" value="1:N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-11" value="N:M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-11" value="N:M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="540" y="200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-12" value="N:1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-12" value="N:M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="880" y="200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-13" value="&lt;ul&gt;&lt;li&gt;ID_CATEGORIA (PK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-13" value="&lt;ul&gt;&lt;li&gt;ID_CATEGORIA (PK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="1000" y="300" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-14" value="&lt;ul&gt;&lt;li&gt;ID_PRODUCTO (PK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;COLOR&lt;/li&gt;&lt;li&gt;REFERENCIA&lt;/li&gt;&lt;li&gt;ID_CATEGORIA (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-14" value="&lt;ul&gt;&lt;li&gt;ID_PRODUCTO (PK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;COLOR&lt;/li&gt;&lt;li&gt;REFERENCIA&lt;/li&gt;&lt;li&gt;ID_CATEGORIA (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="650" y="310" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-15" value="&lt;ul&gt;&lt;li&gt;ID_PEDIDO (PK)&lt;/li&gt;&lt;li&gt;FECHA&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;li&gt;ID_CLIENTE (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-15" value="&lt;ul&gt;&lt;li&gt;ID_PEDIDO (PK)&lt;/li&gt;&lt;li&gt;FECHA&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;li&gt;ID_CLIENTE (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="320" y="310" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-16" value="&lt;ul&gt;&lt;li&gt;ID_CLIENTE (PK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;li&gt;TELEFONO&lt;/li&gt;&lt;li&gt;EMAIL&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-16" value="&lt;ul&gt;&lt;li&gt;ID_CLIENTE (PK)&lt;/li&gt;&lt;li&gt;NOMBRE&lt;/li&gt;&lt;li&gt;DIRECCION&lt;/li&gt;&lt;li&gt;TELEFONO&lt;/li&gt;&lt;li&gt;EMAIL&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="-30" y="310" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-17" value="&lt;ul&gt;&lt;li&gt;ID_CONTIENE (PK)&lt;/li&gt;&lt;li&gt;ID_PEDIDO (FK)&lt;/li&gt;&lt;li&gt;ID_PRODUCTO (FK)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-17" value="&lt;ul&gt;&lt;li&gt;(ID_PEDIDO, ID_PRODUCTO) PK&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="480" y="120" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-18" value="Un cliente puede realizar varios pedidos, pero el pedido #X solo lo realiza un cliente" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-18" value="Un cliente puede realizar varios pedidos, pero el pedido #X solo lo realiza un cliente" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="350" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-19" value="Un pedido puede contener varios productos y un producto puede estar en varios pedidos. Entiendo que el producto es general digamos que sin numero de serie, sino tal vez esa entidad sería ejemplar (no sé cómo llamarlo)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-19" value="Un pedido puede contener varios productos y un producto puede estar en varios pedidos. Entiendo que el producto es general digamos que sin numero de serie, sino tal vez esa entidad sería ejemplar (no sé cómo llamarlo)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="350" width="150" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-20" value="Un producto pertenece a una categoria y en una categoría hay varios productos" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="40" width="140" height="160" as="geometry" />
+        <mxCell id="PgS7k8zxbwXqaSmtQuQZ-20" value="Un producto puede pertenecer a varias categorías (informática-software-niños, por ejemplo) y en una misma catergía hay varios productos" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="30" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="F6Jmu9yOfXN1LUs1ZZww-1" value="&lt;ul&gt;&lt;li&gt;(ID_PRODUCTO, ID_CATEGROIA) PK&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="820" y="120" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
