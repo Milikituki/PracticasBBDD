@@ -245,16 +245,16 @@ select * from clientes c where exists (select 1 from pedidos p where p.id_client
 -- 32) Clientes sin pedidos (NOT EXISTS)
 select * from clientes c where not exists (select 1 from pedidos p where p.id_cliente = c.id_cliente);
 -- 33) Pedidos que tienen líneas (EXISTS)
-
+select * from pedidos p where exists ( select * from lineas_pedido l where p.id_pedido = l.id_pedido );
 
 -- 34) Pedidos que NO tienen líneas (NOT EXISTS) (por si existieran)
-
+select * from pedidos p where not exists ( select * from lineas_pedido l where p.id_pedido = l.id_pedido );
 
 -- 35) Para cada cliente, número de pedidos (columna calculada)
-
+select c.nombre, (select count(*) from pedidos p where c.id_cliente = p.id_cliente) as numPedidos from clientes c;
 
 -- 36) Para cada pedido, número de líneas (columna calculada)
-
+select p.id_pedido, (select count(*) from lineas_pedido l where p.id_pedido = l.id_pedido) as numLineas from pedidos p;
 
 
 -- F) Funciones de fecha y texto
@@ -265,51 +265,51 @@ select * from clientes c where not exists (select 1 from pedidos p where p.id_cl
   where YEAR(fecha_alta) = '2024';
 
 -- 38) Pedidos del mes de mayo (MONTH)
-
+select * from pedidos where month(fecha) = 05;
 
 -- 39) Emails en mayúsculas (UPPER)
-
+select upper(email) from clientes;
 
 -- 40) Longitud del nombre del producto (CHAR_LENGTH)
-
-
+select nombre, char_length(nombre) as longitudNombre from productos;
 
 -- F) INSERT / UPDATE / DELETE (PRUEBAS)
 -- OJO: Estas sentencias CAMBIAN datos!!!!
 
 -- 41) Insertar un cliente nuevo con todos los atributos
-
+insert into clientes (nombre, email, ciudad, fecha_alta) values ("Miriam Fernandez", "miriam@correo.es", "Mallorca", 2024-05-24);
 
 -- 42) Subir stock a 25 del producto 103
-
+update productos set stock = 25 where id_producto = 103;
 
 -- 43) Rebajar un 10% los productos de precio > 100
-
+update productos set precio = (precio*0.90) where precio > 100;
 
 -- 44) Poner stock a 0 a productos sin ventas (NOT IN)
-
+update productos set stock = 0 where id_producto not in (select id_producto from pedidos);
 
 -- 45) Borrar pedidos cancelados
-
+delete from pedidos where estado = "CANCELADO";
 
 -- 46) Borrar líneas de un pedido concreto
-
+delete from lineas_pedido where id_pedido = 501;
 
 -- 47) Borrar clientes sin pedidos (siempre que no estén referenciados)
-
+delete from clientes where id_cliente not in (
+    select id_cliente from pedidos);
 
 
 -- G) ALTER TABLE (estructura) 
 -- OJO: Esto MODIFICA la estructura de las tablas!!!!
 
 -- 48) Añadir columna teléfono a clientes
-
+alter table clientes add telefono varchar(20);
 
 -- 49) Cambiar longitud del nombre en productos
-
+alter table productos modify nombre varchar(30);
 
 -- 50) Renombrar columna total -> total_eur 
-
+alter table pedidos change total total_eur decimal;
 
 
 
