@@ -230,22 +230,47 @@ select m.nombre, c.fecha from atiende a inner join medico m on a.id_medico = m.i
 
 
 -- 6) LEFT JOIN: Mostrar todos los médicos aunque no tengan citas.
-
+select medico.nombre 
+from medico 
+left join atiende -- la juntas con esta tabla y le dices que predomina la de la izq
+on atiende.id_medico = medico.id_medico -- fk tabla1 = pk tabla2
+group by medico.nombre, medico.apellidos; -- agrupas por medico para que si tienen +1 cita, no se duplique
 
 -- 7) RIGHT JOIN: Mostrar todas las citas aunque no tengan médico asignado.
-
+select cita.fecha 
+from atiende 
+right join cita -- la juntas con esta tabla y le dices que predomina la de la dcha que es la que saca toda la info
+on atiende.id_cita = cita.id_cita;
 
 -- 8) HAVING: Mostrar pacientes con más de una cita.
-
+select paciente.id_paciente, paciente.nombre, paciente.apellidos, count(cita.id_cita) as total_citas
+from paciente
+inner join cita -- inner porque los que no tengan cita, no me interesan porque no van a cumplir nunca la condición
+on paciente.id_paciente = cita.id_paciente
+group by paciente.id_paciente -- hay que agrupar, ponemos el id_paciente por si hay dos personas con el mismo nombre, para que las distinga y separe
+having total_citas > 1;
 
 -- 9) MIN: Mostrar la cita más antigua.
-
+select *, min(fecha) as fecha_antigua
+from cita;
 
 -- 10) MAX: Mostrar la cita más reciente.
-
+select *, max(fecha)
+from cita;
 
 -- 11) AVG sencillo: Calcular promedio de citas por paciente.
 -- esta es un poco más complicada 
-
+select avg(total_citas) as media_citas
+from(
+    select count(*) as total_citas
+    from cita
+    group by id_paciente
+) sub; -- alias obligatorio para la subconsulta
 
 -- 12) JOIN con tratamiento: Mostrar id de cita y descripción del tratamiento.
+select cita.id_cita, tratamiento.descripcion
+from incluye
+inner join tratamiento
+on incluye.id_tratamiento = tratamiento.id_tratamiento
+inner join cita
+on cita.id_cita = incluye.id_cita;
