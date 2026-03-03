@@ -206,3 +206,46 @@ SELECT * from tratamiento where descripcion like "%revision%";
 -- Medico que Contiene Vega en apellido
 
 select * from medico where apellidos like "%Vega%";
+
+/* =========================================================
+   CLÍNICA CONSULTAS SENCILLAS
+   ========================================================= */
+
+-- 1) WHERE + ORDER BY: Mostrar las citas ordenadas por fecha descendente.
+select * from cita order by fecha DESC;
+
+
+-- 2) LIKE: Mostrar pacientes cuyo apellido contenga 'Pérez'.
+select * from paciente where apellidos like '%pérez%' or '%perez%';
+
+
+-- 3) COUNT con GROUP BY: Mostrar cuántas citas tiene cada paciente.
+select nombre, apellidos, (select count(*) from cita c where c.id_paciente = p.id_paciente) as total_citas from paciente p;
+
+-- 4) INNER JOIN sencillo: Mostrar nombre del paciente y fecha de su cita.
+select p.nombre, c.fecha from paciente p inner join cita c on p.id_paciente = c.id_paciente;
+
+-- 5) INNER JOIN con médico: Mostrar médicos y las citas que atienden.
+select m.nombre, c.fecha from atiende a inner join medico m on a.id_medico = m.id_medico inner join cita c on c.id_cita = a.id_cita;
+
+
+-- 6) LEFT JOIN: Mostrar todos los médicos aunque no tengan citas.
+
+
+-- 7) RIGHT JOIN: Mostrar todas las citas aunque no tengan médico asignado.
+
+
+-- 8) HAVING: Mostrar pacientes con más de una cita.
+
+
+-- 9) MIN: Mostrar la cita más antigua.
+
+
+-- 10) MAX: Mostrar la cita más reciente.
+
+
+-- 11) AVG sencillo: Calcular promedio de citas por paciente.
+-- esta es un poco más complicada 
+
+
+-- 12) JOIN con tratamiento: Mostrar id de cita y descripción del tratamiento.
