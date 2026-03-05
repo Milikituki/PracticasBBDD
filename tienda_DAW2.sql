@@ -200,10 +200,18 @@ inner join productos pr
 on pr.id_producto = pl.id_producto;
 
 -- B6) Mostrar todos los pedidos que incluyen “Portátil 14"”.
-
+select *
+from pedido_lineas
+inner join productos
+on pedido_lineas.id_producto = productos.id_producto
+where nombre_producto like '%portatil 14"%';
 
 -- B7) Mostrar pedidos con productos de categoría “Audio”.
-
+select *
+from pedido_lineas
+inner join productos
+on pedido_lineas.id_producto = productos.id_producto
+where categoria like '%audio%';
 
 
 -- =========================================================
@@ -211,7 +219,10 @@ on pr.id_producto = pl.id_producto;
 -- =========================================================
 
 -- C1) Listar todos los clientes y, si tienen, sus pedidos (clientes sin pedido deben aparecer).
-
+select *
+from clientes c
+left join pedidos p 
+on c.id_cliente = p.id_pedido;
 
 -- C2) Encontrar clientes sin pedidos.
 
@@ -278,14 +289,52 @@ on pr.id_producto = pl.id_producto;
 
 -- F1) FULL JOIN simulado clientes <-> pedidos (todos los clientes y todos los pedidos)
 --     Ojo: columnas deben coincidir en ambos SELECT.
+select c.nombre, c.id_cliente, p.id_pedido, p.estado
+from clientes c 
+left join pedidos p 
+on c.id_cliente = p.id_cliente
+union 
+select c.nombre, c.id_cliente, p.id_pedido, p.estado
+from clientes c 
+right join pedidos p 
+on c.id_cliente = p.id_cliente;
 
+-- tambien podemos hacer:
+select c.nombre, c.id_cliente, p.id_pedido, p.estado
+from clientes c 
+left join pedidos p 
+on c.id_cliente = p.id_cliente
+union all -- es mas rapido, pero hay que filtrar con where para que no salgan duplicados
+select c.nombre, c.id_cliente, p.id_pedido, p.estado
+from clientes c 
+right join pedidos p 
+on c.id_cliente = p.id_cliente
+where c.id_cliente is null;
 
 -- F2) FULL JOIN simulado pedidos <-> pagos (ver pedidos sin pago y pagos "raros" si existieran)
-
+select *
+from pedidos p 
+left join pagos pg 
+on p.id_pedido = pg.id_pedido
+union all 
+select *
+from pedidos p 
+right join pagos pg 
+on p.id_pedido = pg.id_pedido
+where p.id_pedido is null;
 
 -- F3) Versión optimizada (sin duplicados) con UNION ALL:
 --     LEFT JOIN completo + solo los "exclusivos" del RIGHT (cuando falta la izquierda).
-
+select *
+from pedidos p 
+left join pagos pg 
+on p.id_pedido = pg.id_pedido
+union all 
+select *
+from pedidos p 
+right join pagos pg 
+on p.id_pedido = pg.id_pedido
+where p.id_pedido is null; -- el where se pone en la segunda consulta porque aqui es donde le dices que no quieres los duplicados.
 
 
 -- =========================================================
@@ -293,16 +342,44 @@ on pr.id_producto = pl.id_producto;
 -- =========================================================
 
 -- G1) Clientes que han hecho algún pedido (IN)
-
+select c.nombre, p.id_pedido
+from clientes c
+where c.id_cliente in(
+  select p.id_cliente
+  from pedidos p 
+  where p.id_cliente is not null
+);
 -- G2) Clientes que NO han hecho pedidos (NOT IN con cuidado de NULL)
 -- Mejor usar NOT EXISTS (ver G3). Aquí lo dejamos didáctico filtrando NULL en subconsulta:
-
+select *
+from clientes c 
+where c.id_cliente not in (
+  select p.id_pedido
+  from pedidos p
+  where p.id_cliente is not null
+)
 
 -- G3) Clientes sin pedidos (NOT EXISTS) - recomendada
-
+select clientes.nombre
+from clientes
+where not exists (
+  select 1 
+  from pedidos
+  where clientes.id_cliente = pedidos.id_cliente
+)
 
 -- G4) Clientes con algún pago OK (EXISTS)
-
+select clientes.nombre, pedido.id_pedido, pagos.id_pago
+from clientes
+where exists (
+  select 1
+  from pedidos
+  where exists (
+    select 1
+    from pagos
+    where estado = 'ok'
+  )
+);
 
 -- G5) Pedidos cuyo total (sumatorio de líneas) supera 500€
 -- (Subconsulta correlacionada: calcula el total del pedido)
