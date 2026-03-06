@@ -225,20 +225,38 @@ left join pedidos p
 on c.id_cliente = p.id_pedido;
 
 -- C2) Encontrar clientes sin pedidos.
-
+select *
+from clientes c 
+left join pedidos p 
+on c.id_cliente = p.id_cliente
+where p.id_pedido is null;
 
 -- C3) Listar todos los pedidos y, si tienen, sus pagos (pedidos sin pago deben aparecer).
-
+select * 
+from pedidos
+left join pagos 
+on pedidos.id_pedido = pagos.id_pedido;
 
 -- C4) Encontrar pedidos sin pagos.
-
+select * 
+from pedidos
+left join pagos 
+on pedidos.id_pedido = pagos.id_pedido
+where pagos.id_pago is null;
 
 -- C5) Listar todos los productos y, si se han vendido, cuántas unidades
 --     (productos nunca vendidos deben aparecer).
-
+select *
+from productos
+left join pedido_lineas
+on pedido_lineas.id_producto = productos.id_producto;
 
 -- C6) Encontrar productos nunca vendidos.
-
+select *
+from productos
+left join pedido_lineas
+on pedido_lineas.id_producto = productos.id_producto
+where pedido_lineas.id_pedido is null;
 
 
 -- =========================================================
@@ -246,13 +264,24 @@ on c.id_cliente = p.id_pedido;
 -- =========================================================
 
 -- D1) Mostrar todos los pedidos y el nombre del cliente (aunque sea NULL).
+select *
+from clientes c 
+right join pedidos p 
+on p.id_cliente = c.id_cliente
 
 -- D2) Detectar pedidos sin cliente.
-
+select *
+from clientes c 
+right join pedidos p 
+on p.id_cliente = c.id_cliente
+where c.id_cliente is null
 
 -- D3) Mostrar todos los productos que han sido vendidos y, aunque no haya cliente,
 --     ver el pedido (RIGHT JOIN desde pedidos hacia líneas para conservar líneas/pedidos).
-
+select *
+from pedidos p 
+right join pedido_lineas pl 
+on p.id_pedido = pl.id_pedido
 
 -- D4) Comparar RIGHT vs LEFT reescribiendo la misma consulta intercambiando el orden de tablas.
 
@@ -269,19 +298,34 @@ on c.id_cliente = p.id_pedido;
 
 -- E1) LEFT JOIN clientes–pedidos: filtra estado='pagado' en WHERE.
 --     ¿Qué pasa? Los clientes sin pedido desaparecen (porque WHERE elimina NULL).
-
+select *
+from clientes c 
+left join pedidos p 
+on c.id_cliente = p.id_cliente
+where p.estado = 'pagado'
 
 -- E2) Repite, pero mete estado='pagado' en el ON.
 --     Aquí los clientes sin pedido siguen apareciendo con NULL.
-
+select *
+from clientes c 
+left join pedidos p 
+on c.id_cliente = p.id_cliente and p.estado = 'pagado'
 
 -- E3) LEFT JOIN pedidos–pagos: filtra estado='ok' en WHERE y luego en ON. Compara.
 
 --   E3a) Filtrado en WHERE: pedidos sin pago desaparecen.
-
+select *
+from pedidos p 
+left join pagos pg 
+on p.id_pedido = pg.id_pedido
+where pg.estado = 'ok'
 
 --   E3b) Filtrado en ON: pedidos sin pago se mantienen con NULL.
-
+select *
+from pedidos p 
+left join pagos pg 
+on p.id_pedido = pg.id_pedido
+and pg.estado = 'ok'
 
 -- =========================================================
 -- F) FULL JOIN (simulado en MySQL) + UNION / UNION ALL
@@ -369,17 +413,7 @@ where not exists (
 )
 
 -- G4) Clientes con algún pago OK (EXISTS)
-select clientes.nombre, pedido.id_pedido, pagos.id_pago
-from clientes
-where exists (
-  select 1
-  from pedidos
-  where exists (
-    select 1
-    from pagos
-    where estado = 'ok'
-  )
-);
+
 
 -- G5) Pedidos cuyo total (sumatorio de líneas) supera 500€
 -- (Subconsulta correlacionada: calcula el total del pedido)
